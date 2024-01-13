@@ -86,7 +86,7 @@ if __name__ == '__main__':
         elif (move3=="w"): winner = 3; break
         elif (move4=="w"): winner = 4; break
         elif (move5=="w"): winner = 5; break
-        sys.stdout.write("\033[5A") # Move cursor up 3 steps in terminal
+        sys.stdout.write("\033[5A") # Move cursor up 5 steps in terminal
         sys.stdout.write("\033[J")  # Remove all lines till bottom (Make sure to be in this window for it to work)
 
     # Checking for Winner and Bet
